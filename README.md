@@ -1,7 +1,7 @@
 
-[Swift Version](https://img.shields.io/badge/platform-ios-orange/?style=for-the-badge&color=blue)
+![Swift Version](https://img.shields.io/badge/platform-ios-orange/?style=for-the-badge&color=blue)
 
-[Platform](https://img.shields.io/badge/platform-ios-orange/?style=for-the-badge&color=blue)
+![Platform](https://img.shields.io/badge/platform-ios-orange/?style=for-the-badge&color=blue)
 
 # SegmentedPageViewController
 SegmentedPageViewController is a ViewController which containts a custom SegmentedControll and a UIPageViewController synced together.
@@ -12,14 +12,14 @@ SegmentedPageViewController is a ViewController which containts a custom Segment
 
 Image below briefly explains the components of SegmentedPageViewController and how they are connected together.
 
-[Explanation Image](images/map.png)
+![Explanation Image](images/map.png)
 
 ## installation
 Just copy the 3 files [`SegmentedPageViewController` - `SPSegmentedControll` - `SPSegmentedControllItem`] of SegmentPageViewController directory into your project.
 
 ## Usage Examples
 Here is a `SegmentedPageViewController` with 3 pages.
-```
+```swift
 let segmentedPageVC = SegmentedPageViewController(
     pages: [
         .init(viewController: viewcontrollers[0],
@@ -45,7 +45,7 @@ The initializer gets 2 variables:
 * `segmentControllerFillMode` defines how `SPSegmentedControll` should distribute its Items. Use `.equally` if your `SegmentPageViewController.Page` titles length are equal and use `.proportionally` if you have titles with different lengths.
 
 Then add it to your view just like any other ViewController.
-```
+```swift
 self.addChild(segmentedPageVC)
 view.addSubview(segmentedPageVC.view)
 segmentedPageVC.didMove(toParent: self)
@@ -54,7 +54,7 @@ segmentedPageVC.didMove(toParent: self)
 
 You can customize the appearance of SPSegmentedController using its variables like this:
 
-```
+```swift
 segmentedPageVC.segmentController.highlightColor = .systemRed
 segmentedPageVC.segmentController.textColor = .systemGray6
 segmentedPageVC.segmentController.font = UIFont.systemFont(ofSize: 15, weight: .semibold)
