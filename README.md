@@ -1,13 +1,12 @@
 
 ![Swift Version](https://img.shields.io/badge/platform-ios-orange/?style=for-the-badge&color=blue)
-
 ![Platform](https://img.shields.io/badge/platform-ios-orange/?style=for-the-badge&color=blue)
 
 # SegmentedPageViewController
 SegmentedPageViewController is a ViewController which containts a custom SegmentedControll and a UIPageViewController synced together.
 
 <p align="center">
-  <img src="images/demo.gif" alt="demo">
+  <img src="images/demo.gif" alt="demo" width = "350">
 </p>
 
 Image below briefly explains the components of SegmentedPageViewController and how they are connected together.
