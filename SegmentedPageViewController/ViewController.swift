@@ -9,13 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var viewcontrollers = [UIViewController]()
+    lazy var viewcontrollers: [UIViewController] = { makeExampleViewControlers() }()
     var segmentedPageVC: SegmentedPageViewController!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewcontrollers = makeExampleViewControlers()
         addSegmentedPageViewController()
         customizeSegmentedPageViewController2()
         
@@ -37,7 +36,7 @@ class ViewController: UIViewController {
                       title: "Page2"),
                 
                 .init(viewController: viewcontrollers[2],
-                      title: "Long Title Page3")
+                      title: "Very Long Title Page3")
             ]
             
             ,segmentControllerFillMode: .proportionally)
@@ -74,7 +73,7 @@ class ViewController: UIViewController {
 extension ViewController {
     private func customizeSegmentedPageViewController1() {
         segmentedPageVC.segmentController.highlightColor = .systemRed
-        segmentedPageVC.segmentController.underlineHeight = 25
+        segmentedPageVC.segmentController.underlineHeight = 20
         segmentedPageVC.segmentController.itemsHeight = 40
         segmentedPageVC.segmentController.font = UIFont.systemFont(ofSize: 15, weight: .semibold)
         segmentedPageVC.segmentController.textColor = .systemGray6
@@ -84,10 +83,11 @@ extension ViewController {
     
     private func customizeSegmentedPageViewController2() {
         segmentedPageVC.segmentController.highlightColor = .label
-        segmentedPageVC.segmentController.font = UIFont.systemFont(ofSize: 15, weight: .regular)
+        segmentedPageVC.segmentController.font = UIFont.systemFont(ofSize: 16, weight: .bold)
         segmentedPageVC.segmentController.textColor = .secondaryLabel
         segmentedPageVC.segmentController.underlineHeight = 10
-        segmentedPageVC.segmentController.underlineImageCornerRadius = 5
+        segmentedPageVC.segmentController.underlineImageViewCornerRadius = 5
+        segmentedPageVC.segmentController.underlineImage = nil
     }
 }
 
