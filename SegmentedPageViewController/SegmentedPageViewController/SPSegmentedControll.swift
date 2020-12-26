@@ -43,8 +43,8 @@ final class SPSegmentedControll: UIView {
         setUnderlineImageViewBackgroundIfNeeded()
     }}
     
-    public var underlineImageCornerRadius: CGFloat = 0 { didSet {
-        underlineImageView.layer.cornerRadius = underlineImageCornerRadius
+    public var underlineImageViewCornerRadius: CGFloat = 0 { didSet {
+        underlineImageView.layer.cornerRadius = underlineImageViewCornerRadius
     }}
     
     public var underlineHeight: CGFloat = 3 { didSet {
@@ -92,6 +92,7 @@ final class SPSegmentedControll: UIView {
         let view = UIImageView()
         view.contentMode = .scaleAspectFit
         view.clipsToBounds = true
+        view.backgroundColor = highlightColor
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
