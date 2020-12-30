@@ -44,7 +44,7 @@
 		E4050257253B2594001537C8 = {
 			isa = PBXGroup;
 			children = (
-				E4050262253B2594001537C8 /* SegmentedPageViewController */,
+				E4050262253B2594001537C8 /* SegmentedPageViewControllerDemo */,
 				E4050261253B2594001537C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4050262253B2594001537C8 /* SegmentedPageViewController */ = {
+		E4050262253B2594001537C8 /* SegmentedPageViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
 				E4050263253B2594001537C8 /* AppDelegate.swift */,
@@ -68,7 +68,7 @@
 				E405026E253B2599001537C8 /* LaunchScreen.storyboard */,
 				E4050271253B2599001537C8 /* Info.plist */,
 			);
-			path = SegmentedPageViewController;
+			path = SegmentedPageViewControllerDemo;
 			sourceTree = "<group>";
 		};
 		E4C4572A258547E20028D5D7 /* SegmentedPageViewController */ = {
