@@ -1,5 +1,5 @@
 
-![Swift Version](https://img.shields.io/badge/platform-ios-orange/?style=for-the-badge&color=blue)
+![Swift Version](https://img.shields.io/badge/swift-5.2-orange/?style=for-the-badge&logo=swift&color=orange)
 ![Platform](https://img.shields.io/badge/platform-ios-orange/?style=for-the-badge&color=blue)
 
 # SegmentedPageViewController
@@ -14,7 +14,7 @@ Image below briefly explains the components of SegmentedPageViewController and h
 ![Explanation Image](images/map.png)
 
 ## installation
-Just copy the 3 files [`SegmentedPageViewController` - `SPSegmentedControll` - `SPSegmentedControllItem`] of SegmentPageViewController directory into your project.
+Just copy these 3 files [`SegmentedPageViewController` - `SPSegmentedControll` - `SPSegmentedControllItem`] in `SegmentedPageViewControllerDemo/SegmentedPageViewController/` into your project.
 
 ## Usage Examples
 Here is a `SegmentedPageViewController` with 3 pages.
@@ -43,7 +43,7 @@ The initializer gets 2 variables:
 
 * `segmentControllerFillMode` defines how `SPSegmentedControll` should distribute its Items. Use `.equally` if your `SegmentPageViewController.Page` titles length are equal and use `.proportionally` if you have titles with different lengths.
 
-Then add it to your view just like any other ViewController.
+Then add it to your view just like any other child ViewController.
 ```swift
 self.addChild(segmentedPageVC)
 view.addSubview(segmentedPageVC.view)
@@ -51,7 +51,7 @@ segmentedPageVC.didMove(toParent: self)
 ```
 
 
-You can customize the appearance of SPSegmentedController using its variables like this:
+You can customize the appearance of `SPSegmentedControll` using its variables like this:
 
 ```swift
 segmentedPageVC.segmentController.highlightColor = .systemRed
