@@ -296,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K7MCLTVLC;
-				INFOPLIST_FILE = SegmentedPageViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SegmentedPageViewControllerDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K7MCLTVLC;
-				INFOPLIST_FILE = SegmentedPageViewController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SegmentedPageViewControllerDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
