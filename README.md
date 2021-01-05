@@ -7,6 +7,7 @@ SegmentedPageViewController is a ViewController which containts a custom Segment
 
 <p align="center">
   <img src="images/demo.gif" alt="demo" width = "350">
+  <img src="images/demo2.gif" alt="demo" width = "350">
 </p>
 
 Image below briefly explains the components of SegmentedPageViewController and how they are connected together.
