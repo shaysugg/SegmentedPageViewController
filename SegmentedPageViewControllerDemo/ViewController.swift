@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         vc1.view.backgroundColor = .systemYellow
         
         let vc2 = ExampleViewController()
-        vc2.labelTitle = "Seconed View Controller"
+        vc2.labelTitle = "Second View Controller"
         vc2.view.backgroundColor = .systemRed
         
         let vc3 = ExampleViewController()
