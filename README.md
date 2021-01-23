@@ -14,7 +14,7 @@ Image below briefly explains the components of SegmentedPageViewController and h
 ![Explanation Image](images/map.png)
 
 ## installation
-Just copy these 3 files [`SegmentedPageViewController` - `SPSegmentedControll` - `SPSegmentedControllItem`] in `SegmentedPageViewControllerDemo/SegmentedPageViewController/` into your project.
+Just copy these 3 files [`SegmentedPageViewController` - `SPSegmentedControll` - `SPSegmentedControllItem`] at `SegmentedPageViewController` directory into your project.
 
 ## Usage Examples
 Here is a `SegmentedPageViewController` with 3 pages.
