@@ -44,6 +44,7 @@
 		E4050257253B2594001537C8 = {
 			isa = PBXGroup;
 			children = (
+				E4C4572A258547E20028D5D7 /* SegmentedPageViewController */,
 				E4050262253B2594001537C8 /* SegmentedPageViewControllerDemo */,
 				E4050261253B2594001537C8 /* Products */,
 			);
@@ -63,7 +64,6 @@
 				E4050263253B2594001537C8 /* AppDelegate.swift */,
 				E4050265253B2594001537C8 /* SceneDelegate.swift */,
 				E4050267253B2594001537C8 /* ViewController.swift */,
-				E4C4572A258547E20028D5D7 /* SegmentedPageViewController */,
 				E405026C253B2599001537C8 /* Assets.xcassets */,
 				E405026E253B2599001537C8 /* LaunchScreen.storyboard */,
 				E4050271253B2599001537C8 /* Info.plist */,
